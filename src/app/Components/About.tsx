@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import image2 from "../../../Public/Images/3.jpg"
+import image3 from "../../../Public/Images/4.jpg"
+import image4 from "../../../Public/Images/images.jpg"
 
 const About = () => {
   return (
@@ -15,7 +18,7 @@ const About = () => {
           <div className="team grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="team-member bg-blue-300 p-6 rounded-lg shadow-md hover:bg-green-400 cursor-pointer transition ease-in-out delay-300">
               <Image
-                src="/Images/images.jpg"
+                src={image4}
                 alt="Your Image Description"
                 width={500}
                 height={300}
@@ -27,7 +30,7 @@ const About = () => {
 
             <div className="team-member bg-blue-300 p-6 rounded-lg shadow-md hover:bg-green-400 cursor-pointer transition ease-in-out delay-300">
             <Image
-                src="/Images/3.jpg" // Path ko slash se start karna hoga
+                src={image2} // Path ko slash se start karna hoga
                 alt="Your Image Description"
                 width={500}
                 height={300}
@@ -37,7 +40,7 @@ const About = () => {
             </div>
             <div className="team-member bg-blue-300 p-6 rounded-lg shadow-md hover:bg-green-400 cursor-pointer transition ease-in-out delay-300">
             <Image
-                src="/Images/4.jpg" // Path ko slash se start karna hoga
+                src={image3} // Path ko slash se start karna hoga
                 alt="Your Image Description"
                 width={500}
                 height={300}
