@@ -25,7 +25,7 @@ const About = () => {
               />
 
               <h3 className="text-xl font-bold mb-2">Developer</h3>
-              <p className="text-black text-[15px] font-bold">Sobia Khan</p>
+              <p className="text-black text-[15px] font-bold">Shibra Ali</p>
             </div>
 
             <div className="team-member bg-blue-300 p-6 rounded-lg shadow-md hover:bg-green-400 cursor-pointer transition ease-in-out delay-300">
